@@ -1,35 +1,69 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E62D9,100:1FA98F&height=280&section=header&text=Yuvaraaj%20R%20K&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Software%20Developer%20%7C%20Full-Stack%2C%20AI-Integrated%20Systems&descAlignY=55&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E62D9,100:1FA98F&height=220&section=header&text=Yuvaraaj%20R%20K&fontSize=48&fontColor=ffffff&fontAlignY=40&desc=Software%20Developer%20%7C%20Full-Stack%2C%20AI-Integrated%20Systems&descAlignY=62&descSize=17" width="100%"/>
 
-<br/>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&color=1C7A6E&center=true&vCenter=true&width=600&lines=Building+Full-Stack+%26+AI-Integrated+Systems;Java+%7C+Python+%7C+React+%7C+Spring+Boot;Turning+Ideas+Into+Scalable+Software" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=1C7A6E&center=true&vCenter=true&width=600&lines=Building+scalable+full-stack+applications;Exploring+AI-powered+software+solutions;Open+to+Software+Developer+roles" alt="Typing SVG" />
 
-<br/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=1C7A6E&center=true&vCenter=true&width=560&lines=Building+scalable+full-stack+applications;Exploring+AI-powered+software+solutions;Open+to+Software+Developer+roles" alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/-EMAIL-e34c26?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yuvarajamanikkam@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LINKEDIN-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yuvaraaj-r-k-556599357)
+[![LinkedIn](https://img.shields.io/badge/-LINKEDIN-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yuvaraaj-r-k-556599357/)
 [![GitHub](https://img.shields.io/badge/-GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yuvaraaj-29)
-![Profile Views](https://komarev.com/ghpvc/?username=yuvaraaj-29&style=for-the-badge&color=6b7280&label=PROFILE+VIEWS)
+![Location](https://img.shields.io/badge/-Salem%2C%20Tamil%20Nadu-6b7280?style=for-the-badge&logo=googlemaps&logoColor=white)
 
-<br/>
+📞 +91 9994883043
 
 </div>
 
-## 🌀 About Me
+---
 
-- 🎓 Final-year **Information Technology** undergraduate at **Mepco Schlenk Engineering College** (2023 – 2027)
-- 💼 Virtual Intern at **Infosys** — built a Smart Procurement & Vendor Management System with **Java & Spring Boot**
-- 🏆 3rd Prize Winner — **Yuvaa AI Stack Challenge 2026**, for an AI-powered application
-- 🚀 Passionate about **Full-Stack Development**, **Automation Systems**, and **AI-powered Software**
-- 🌱 Currently exploring **System Design**, **Cloud Deployment**, and deeper **AI Integration**
+## 🎯 Career Objective
 
-<br/>
+Aspiring Software Developer with strong knowledge in **Java**, **Python**, and full-stack development. Passionate about building scalable applications, automation systems, and AI-powered software solutions. Seeking an opportunity at a technology-driven organization to contribute to real-world software development projects and enhance problem-solving skills.
 
-## 🛠️ Tech Stack
+---
 
-<div align="center">
+## 🎓 Education
+
+**Mepco Schlenk Engineering College**
+Bachelor of Technology — Information Technology
+`2023 – 2027` · CGPA: **7.44 / 10**
+
+---
+
+## 💼 Experience
+
+### Infosys — Virtual Internship
+`Feb 2026`
+
+- Developed a Smart Procurement & Vendor Management System using **Java and Spring Boot**
+- Implemented vendor onboarding and centralized profile management modules
+- Automated procurement workflows with multi-level approval processes to improve efficiency
+- Built a real-time Purchase Order (PO) lifecycle tracking system for better monitoring and transparency
+- Integrated MySQL for optimized data storage, retrieval, and transaction management
+
+---
+
+## 🚀 Projects
+
+### Technology Convergence Using BERT Topic Modeling & Association Rule Mining
+`Nov 2025`
+- Applied BERT for topic modelling on large text datasets
+- Used association rule mining to extract meaningful relationships and insights
+
+### Steel Furniture Manufacturing System
+`May 2025`
+- Built a management system to handle orders, inventory, and production workflow
+- Improved operational efficiency and data record management
+
+### Route Optimization System
+`Mar 2026`
+- Finds the most efficient path to travel between multiple locations, saving time, cost, and fuel
+
+---
+
+## 🛠️ Technical Skills
 
 **Languages**
 <br/>
@@ -43,35 +77,35 @@
 <br/>
 <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
 
-**Tools & Concepts**
-<br/>
-<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+**Core Concepts**
+`OOP` · `Data Structures & Algorithms` · `DBMS`
 
-</div>
-
-<br/>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=yuvaraaj-29&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=yuvaraaj-29&theme=tokyonight&hide_border=true" height="165"/>
-
-</div>
-
-<br/>
+---
 
 ## 🏅 Certifications
 
-- NPTEL — Introduction to Internet of Things *(Nov 2024)*
-- Infosys Springboard — Machine Learning Using Python *(May 2024)*
-- Infosys Springboard — Java Foundation Certification *(Dec 2025)*
+| Certification | Date |
+|---|---|
+| NPTEL — Introduction to Internet of Things | Nov 2024 |
+| Infosys Springboard — Machine Learning Using Python | May 2024 |
+| Infosys Springboard — Java Foundation Certification | Dec 2025 |
 
-<br/>
+---
+
+## 🏆 Achievements
+
+- Secured **3rd Prize** — Yuvaa AI Stack Challenge 2026, for an AI-powered application
+
+---
+
+## 🤝 Soft Skills
+
+`Problem Solving` · `Teamwork` · `Communication` · `Time Management`
 
 <div align="center">
 
-*Let's connect and build something great together!* 🚀
+<br/>
+
+*Last updated · July 2026*
 
 </div>
