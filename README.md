@@ -5,118 +5,101 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Yuvaraaj R K — Software Developer</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap');
 
   :root{
-    --ink:#12151c;
-    --panel:#1a1f2b;
-    --paper:#eeeee6;
-    --amber:#e8b84b;
-    --amber-dim:#a9863c;
-    --line: rgba(238,238,230,0.14);
-    --muted:#9aa0ad;
+    --navy:#1c2a44;
+    --navy-deep:#101828;
+    --gold:#a9812f;
+    --paper:#faf8f4;
+    --panel:#ffffff;
+    --line:#e6e1d6;
+    --muted:#6b7280;
+    --text:#26303f;
   }
 
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
   body{
-    background:var(--ink);
-    color:var(--paper);
+    background:var(--paper);
+    color:var(--text);
     font-family:'Inter',sans-serif;
-    line-height:1.55;
+    line-height:1.6;
     -webkit-font-smoothing:antialiased;
   }
 
-  a{color:var(--amber);text-decoration:none;border-bottom:1px solid transparent;}
-  a:hover{border-bottom-color:var(--amber);}
+  a{color:var(--navy);text-decoration:none;border-bottom:1px solid var(--line);}
+  a:hover{border-bottom-color:var(--gold);color:var(--gold);}
 
   .wrap{
     max-width:860px;
     margin:0 auto;
-    padding:64px 40px 80px;
+    padding:56px 44px 70px;
   }
 
-  /* ---------- HERO / TERMINAL HEADER ---------- */
-  .term{
-    background:var(--panel);
-    border:1px solid var(--line);
-    border-radius:10px;
-    overflow:hidden;
-    margin-bottom:48px;
-  }
-  .term-bar{
+  /* ---------- HEADER ---------- */
+  .header{
     display:flex;
     align-items:center;
-    gap:8px;
-    padding:11px 16px;
-    background:#151923;
-    border-bottom:1px solid var(--line);
+    gap:26px;
+    padding-bottom:32px;
+    border-bottom:2px solid var(--navy);
+    margin-bottom:36px;
   }
-  .dot{width:10px;height:10px;border-radius:50%;}
-  .dot.r{background:#e0605a;}
-  .dot.y{background:#e8b84b;}
-  .dot.g{background:#59c27c;}
-  .term-title{
-    margin-left:8px;
-    font-family:'JetBrains Mono',monospace;
-    font-size:12px;
-    color:var(--muted);
-  }
-  .term-body{padding:28px 32px 34px;}
-  .prompt{
-    font-family:'JetBrains Mono',monospace;
-    font-size:13px;
-    color:var(--amber);
-    margin:0 0 6px;
-  }
-  .prompt span{color:var(--muted);}
-  h1{
-    font-family:'Space Grotesk',sans-serif;
-    font-size:44px;
-    font-weight:700;
-    letter-spacing:-0.01em;
-    margin:4px 0 6px;
+  .monogram{
+    flex:0 0 auto;
+    width:76px;height:76px;
+    border-radius:50%;
+    background:var(--navy);
     color:var(--paper);
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Fraunces',serif;
+    font-size:26px;
+    font-weight:600;
+    letter-spacing:0.02em;
+    box-shadow:0 0 0 4px var(--paper), 0 0 0 5px var(--line);
+  }
+  .head-text h1{
+    font-family:'Fraunces',serif;
+    font-size:40px;
+    font-weight:600;
+    color:var(--navy-deep);
+    margin:0 0 4px;
+    letter-spacing:-0.01em;
   }
   .role{
-    font-family:'Space Grotesk',sans-serif;
-    font-size:16px;
+    font-size:15px;
     font-weight:500;
-    color:var(--amber);
-    margin:0 0 20px;
+    color:var(--gold);
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    margin:0 0 12px;
   }
   .contact-row{
     display:flex;
     flex-wrap:wrap;
-    gap:6px 22px;
-    font-family:'JetBrains Mono',monospace;
-    font-size:12.5px;
+    gap:4px 20px;
+    font-size:13px;
     color:var(--muted);
   }
-  .contact-row a{color:var(--muted);}
-  .contact-row a:hover{color:var(--amber);border-bottom-color:var(--amber);}
-  .contact-row .k{color:var(--amber-dim);}
+  .contact-row a{color:var(--muted);border-bottom:none;}
+  .contact-row a:hover{color:var(--gold);}
+  .contact-row span::before{content:"•";color:var(--gold);margin-right:8px;font-size:11px;}
+  .contact-row span:first-child::before{content:"";margin-right:0;}
 
   /* ---------- SECTIONS ---------- */
-  section{margin-bottom:38px;}
+  section{margin-bottom:34px;}
   .sec-head{
     display:flex;
-    align-items:baseline;
-    gap:10px;
-    margin-bottom:18px;
-  }
-  .sec-tag{
-    font-family:'JetBrains Mono',monospace;
-    font-size:12px;
-    color:var(--amber-dim);
+    align-items:center;
+    gap:14px;
+    margin-bottom:16px;
   }
   .sec-head h2{
-    font-family:'Space Grotesk',sans-serif;
-    font-size:13px;
+    font-family:'Fraunces',serif;
+    font-size:18px;
     font-weight:600;
-    text-transform:uppercase;
-    letter-spacing:0.12em;
-    color:var(--paper);
+    color:var(--navy-deep);
     margin:0;
     white-space:nowrap;
   }
@@ -129,10 +112,12 @@
   /* Objective */
   .objective{
     font-size:15px;
-    color:#cfd3da;
+    color:#3d4757;
     max-width:70ch;
-    border-left:2px solid var(--amber-dim);
-    padding-left:18px;
+    font-style:italic;
+    font-family:'Fraunces',serif;
+    font-weight:500;
+    line-height:1.65;
   }
 
   /* Education */
@@ -142,30 +127,35 @@
     align-items:flex-start;
     gap:16px;
     flex-wrap:wrap;
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-left:3px solid var(--navy);
+    border-radius:6px;
+    padding:16px 20px;
   }
   .edu-name{
-    font-family:'Space Grotesk',sans-serif;
+    font-family:'Fraunces',serif;
     font-weight:600;
-    font-size:16px;
-    color:var(--paper);
+    font-size:16.5px;
+    color:var(--navy-deep);
   }
   .edu-sub{font-size:13.5px;color:var(--muted);margin-top:3px;}
   .edu-meta{
     text-align:right;
-    font-family:'JetBrains Mono',monospace;
-    font-size:12.5px;
-    color:var(--amber);
+    font-size:13px;
+    color:var(--navy);
+    font-weight:600;
     white-space:nowrap;
   }
-  .edu-meta .cgpa{display:block;color:var(--muted);margin-top:3px;}
+  .edu-meta .cgpa{display:block;color:var(--muted);font-weight:400;margin-top:3px;}
 
-  /* Projects / Experience cards */
+  /* Cards */
   .card{
     padding:18px 20px;
+    background:var(--panel);
     border:1px solid var(--line);
-    border-radius:8px;
-    background:linear-gradient(180deg, rgba(255,255,255,0.015), transparent);
-    margin-bottom:14px;
+    border-radius:6px;
+    margin-bottom:12px;
   }
   .card-head{
     display:flex;
@@ -176,67 +166,67 @@
     margin-bottom:8px;
   }
   .card-title{
-    font-family:'Space Grotesk',sans-serif;
+    font-family:'Fraunces',serif;
     font-weight:600;
-    font-size:15.5px;
-    color:var(--paper);
+    font-size:16px;
+    color:var(--navy-deep);
   }
   .card-date{
-    font-family:'JetBrains Mono',monospace;
-    font-size:11.5px;
-    color:var(--amber-dim);
+    font-size:12px;
+    font-weight:600;
+    color:var(--gold);
+    text-transform:uppercase;
+    letter-spacing:0.05em;
     white-space:nowrap;
   }
   .card ul{
     margin:0;
     padding-left:18px;
     font-size:14px;
-    color:#c6cad2;
+    color:#454f5f;
   }
-  .card ul li{margin-bottom:4px;}
-  .card ul li::marker{color:var(--amber-dim);}
+  .card ul li{margin-bottom:5px;}
+  .card ul li::marker{color:var(--gold);}
 
-  /* Skills */
-  .skill-grid{
-    display:grid;
-    grid-template-columns:140px 1fr;
-    row-gap:12px;
-    column-gap:16px;
-    font-size:13.5px;
-  }
-  .skill-cat{
-    font-family:'JetBrains Mono',monospace;
-    color:var(--amber-dim);
-    font-size:12px;
-    padding-top:3px;
-  }
-  .tag-row{display:flex;flex-wrap:wrap;gap:8px;}
-  .tag{
-    font-family:'JetBrains Mono',monospace;
-    font-size:12px;
-    padding:4px 10px;
+  /* Skills — image based */
+  .skills-block{
+    background:var(--panel);
     border:1px solid var(--line);
-    border-radius:5px;
-    color:#dcdfe5;
-    background:rgba(255,255,255,0.02);
+    border-radius:6px;
+    padding:22px 24px;
+  }
+  .skill-group{margin-bottom:18px;}
+  .skill-group:last-child{margin-bottom:0;}
+  .skill-label{
+    font-size:12px;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:0.07em;
+    color:var(--muted);
+    margin-bottom:10px;
+  }
+  .skill-icons img{
+    display:block;
+    max-width:100%;
+    height:auto;
   }
 
   /* Certifications / Achievements */
-  .plain-list{list-style:none;margin:0;padding:0;}
+  .plain-list{list-style:none;margin:0;padding:0;background:var(--panel);border:1px solid var(--line);border-radius:6px;overflow:hidden;}
   .plain-list li{
     display:flex;
     justify-content:space-between;
     gap:12px;
-    padding:9px 0;
+    padding:13px 20px;
     border-bottom:1px solid var(--line);
     font-size:14px;
-    color:#cfd3da;
+    color:#3d4757;
   }
   .plain-list li:last-child{border-bottom:none;}
   .plain-list .when{
-    font-family:'JetBrains Mono',monospace;
-    font-size:11.5px;
-    color:var(--muted);
+    font-size:12px;
+    font-weight:600;
+    color:var(--gold);
     white-space:nowrap;
   }
 
@@ -244,70 +234,60 @@
   .soft-row{display:flex;flex-wrap:wrap;gap:10px;}
   .soft{
     font-size:13px;
-    padding:6px 14px;
+    font-weight:500;
+    padding:7px 16px;
     border-radius:20px;
-    border:1px solid var(--amber-dim);
-    color:var(--amber);
+    background:var(--navy);
+    color:var(--paper);
   }
 
   footer{
-    margin-top:50px;
+    margin-top:44px;
     text-align:center;
-    font-family:'JetBrains Mono',monospace;
     font-size:11px;
     color:var(--muted);
+    letter-spacing:0.05em;
   }
 
   @media (max-width:600px){
-    .wrap{padding:36px 18px 60px;}
-    h1{font-size:32px;}
-    .term-body{padding:22px 18px 26px;}
-    .skill-grid{grid-template-columns:1fr;}
+    .wrap{padding:32px 20px 50px;}
+    h1{font-size:30px;}
+    .header{flex-direction:column;align-items:flex-start;gap:16px;}
     .edu-meta{text-align:left;}
   }
 
   @media print{
-    body{background:#fff;color:#111;}
-    .wrap{max-width:100%;padding:20px 28px;}
-    .term{background:#fff;border-color:#ccc;}
-    .term-bar{background:#f4f4f4;}
-    h1,.card-title,.edu-name,.sec-head h2{color:#111;}
-    .role{color:#8a6a1f;}
-    .card{background:none;border-color:#ddd;}
-    .prompt,.contact-row,.contact-row a{color:#555;}
-    a{color:#8a6a1f;}
+    body{background:#fff;}
+    .wrap{max-width:100%;padding:18px 26px;}
+    .card, .plain-list, .skills-block, .edu-row{border-color:#ddd;}
   }
 </style>
 </head>
 <body>
 <div class="wrap">
 
-  <div class="term">
-    <div class="term-bar">
-      <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
-      <div class="term-title">resume.sh — yuvaraaj-r-k</div>
-    </div>
-    <div class="term-body">
-      <p class="prompt"><span>$</span> whoami</p>
+  <div class="header">
+    <div class="monogram">YR</div>
+    <div class="head-text">
       <h1>Yuvaraaj R K</h1>
       <p class="role">Software Developer · Full-Stack &amp; AI-Integrated Systems</p>
       <div class="contact-row">
-        <span><span class="k">loc</span> Salem, Tamil Nadu</span>
-        <span><span class="k">tel</span> +91 9994883043</span>
-        <span><span class="k">mail</span> <a href="mailto:yuvarajamanikkam@gmail.com">yuvarajamanikkam@gmail.com</a></span>
-        <span><span class="k">git</span> <a href="https://github.com/yuvaraaj-29" target="_blank">github.com/yuvaraaj-29</a></span>
-        <span><span class="k">in</span> <a href="https://linkedin.com/in/yuvaraaj-r-k-556599357" target="_blank">linkedin.com/in/yuvaraaj-r-k</a></span>
+        <span>Salem, Tamil Nadu</span>
+        <span>+91 9994883043</span>
+        <span><a href="mailto:yuvarajamanikkam@gmail.com">yuvarajamanikkam@gmail.com</a></span>
+        <span><a href="https://github.com/yuvaraaj-29" target="_blank">GitHub</a></span>
+        <span><a href="https://linkedin.com/in/yuvaraaj-r-k-556599357" target="_blank">LinkedIn</a></span>
       </div>
     </div>
   </div>
 
   <section>
-    <div class="sec-head"><span class="sec-tag">01</span><h2>Objective</h2><div class="rule"></div></div>
-    <p class="objective">Aspiring Software Developer with strong knowledge in Java, Python, and full-stack development. Passionate about building scalable applications, automation systems, and AI-powered software solutions — seeking to contribute to real-world development work at a technology-driven organization.</p>
+    <div class="sec-head"><h2>Objective</h2><div class="rule"></div></div>
+    <p class="objective">"Aspiring Software Developer with strong knowledge in Java, Python, and full-stack development — passionate about building scalable applications, automation systems, and AI-powered software solutions."</p>
   </section>
 
   <section>
-    <div class="sec-head"><span class="sec-tag">02</span><h2>Education</h2><div class="rule"></div></div>
+    <div class="sec-head"><h2>Education</h2><div class="rule"></div></div>
     <div class="edu-row">
       <div>
         <div class="edu-name">Mepco Schlenk Engineering College</div>
@@ -318,7 +298,7 @@
   </section>
 
   <section>
-    <div class="sec-head"><span class="sec-tag">03</span><h2>Experience</h2><div class="rule"></div></div>
+    <div class="sec-head"><h2>Experience</h2><div class="rule"></div></div>
     <div class="card">
       <div class="card-head">
         <span class="card-title">Infosys — Virtual Internship</span>
@@ -335,7 +315,7 @@
   </section>
 
   <section>
-    <div class="sec-head"><span class="sec-tag">04</span><h2>Projects</h2><div class="rule"></div></div>
+    <div class="sec-head"><h2>Projects</h2><div class="rule"></div></div>
 
     <div class="card">
       <div class="card-head">
@@ -371,29 +351,39 @@
   </section>
 
   <section>
-    <div class="sec-head"><span class="sec-tag">05</span><h2>Technical Skills</h2><div class="rule"></div></div>
-    <div class="skill-grid">
-      <div class="skill-cat">Languages</div>
-      <div class="tag-row">
-        <span class="tag">C</span><span class="tag">C++</span><span class="tag">Java</span><span class="tag">Python</span>
+    <div class="sec-head"><h2>Technical Skills</h2><div class="rule"></div></div>
+    <div class="skills-block">
+      <div class="skill-group">
+        <div class="skill-label">Languages</div>
+        <div class="skill-icons">
+          <img src="https://skillicons.dev/icons?i=c,cpp,java,py" alt="C, C++, Java, Python" loading="lazy">
+        </div>
       </div>
-      <div class="skill-cat">Web</div>
-      <div class="tag-row">
-        <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">React</span><span class="tag">Node.js</span>
+      <div class="skill-group">
+        <div class="skill-label">Web Technologies</div>
+        <div class="skill-icons">
+          <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs" alt="HTML, CSS, JavaScript, React, Node.js" loading="lazy">
+        </div>
       </div>
-      <div class="skill-cat">Database</div>
-      <div class="tag-row">
-        <span class="tag">MySQL</span><span class="tag">MongoDB</span>
+      <div class="skill-group">
+        <div class="skill-label">Databases</div>
+        <div class="skill-icons">
+          <img src="https://skillicons.dev/icons?i=mysql,mongodb" alt="MySQL, MongoDB" loading="lazy">
+        </div>
       </div>
-      <div class="skill-cat">Concepts</div>
-      <div class="tag-row">
-        <span class="tag">OOP</span><span class="tag">DSA</span><span class="tag">DBMS</span>
+      <div class="skill-group" style="margin-bottom:0;">
+        <div class="skill-label">Core Concepts</div>
+        <div class="soft-row">
+          <span class="soft">OOP</span>
+          <span class="soft">Data Structures &amp; Algorithms</span>
+          <span class="soft">DBMS</span>
+        </div>
       </div>
     </div>
   </section>
 
   <section>
-    <div class="sec-head"><span class="sec-tag">06</span><h2>Certifications</h2><div class="rule"></div></div>
+    <div class="sec-head"><h2>Certifications</h2><div class="rule"></div></div>
     <ul class="plain-list">
       <li><span>NPTEL — Introduction to Internet of Things</span><span class="when">Nov 2024</span></li>
       <li><span>Infosys Springboard — Machine Learning Using Python</span><span class="when">May 2024</span></li>
@@ -402,14 +392,14 @@
   </section>
 
   <section>
-    <div class="sec-head"><span class="sec-tag">07</span><h2>Achievements</h2><div class="rule"></div></div>
+    <div class="sec-head"><h2>Achievements</h2><div class="rule"></div></div>
     <ul class="plain-list">
       <li><span>Secured 3rd Prize — Yuvaa AI Stack Challenge 2026, for an AI-powered application.</span><span class="when">2026</span></li>
     </ul>
   </section>
 
   <section>
-    <div class="sec-head"><span class="sec-tag">08</span><h2>Soft Skills</h2><div class="rule"></div></div>
+    <div class="sec-head"><h2>Soft Skills</h2><div class="rule"></div></div>
     <div class="soft-row">
       <span class="soft">Problem Solving</span>
       <span class="soft">Teamwork</span>
@@ -418,7 +408,7 @@
     </div>
   </section>
 
-  <footer>// last updated · July 2026</footer>
+  <footer>LAST UPDATED · JULY 2026</footer>
 </div>
 </body>
 </html>
